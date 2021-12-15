@@ -16,19 +16,15 @@ public class Hero {
         this.damage = damage;
     }
 
-
     public int getDamage() {
-
         return damage;
     }
 
     public int getHeight() {
-
         return height;
     }
 
     public String getSuperpower() {
-
         return superpower;
     }
 
