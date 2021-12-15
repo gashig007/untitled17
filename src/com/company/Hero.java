@@ -5,7 +5,7 @@ public class Hero {
     private int damage;
     private String superpower;
 
-    public Hero(int height, int damage, String superpower) {
+    public Hero(String superpower) {
         this.height = height;
         this.damage = damage;
         this.superpower = superpower;
@@ -16,17 +16,22 @@ public class Hero {
         this.damage = damage;
     }
 
+
     public int getDamage() {
+
         return damage;
     }
 
     public int getHeight() {
+
         return height;
     }
 
     public String getSuperpower() {
+
         return superpower;
     }
+
 }
 
 
