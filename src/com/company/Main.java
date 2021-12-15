@@ -18,9 +18,9 @@ public class Main {
     }
 
     public static Hero[] createHeroes() {
-        Hero hero1 = new Hero(200, 35);
-        Hero hero2 = new Hero(250, 20);
-        Hero hero3 = new Hero(400, 10);
+        Hero hero1 = new Hero(100, 20);
+        Hero hero2 = new Hero(100, 15);
+        Hero hero3 = new Hero(100, 10);
         Hero[] hero = {hero1, hero2, hero3};
         return hero;
 
