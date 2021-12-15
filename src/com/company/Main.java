@@ -11,8 +11,8 @@ public class Main {
         boss.setProtection("уклонение");
         System.out.println(boss.getHeight() + " " + boss.getDamage() + " " + boss.getProtection());
         for (int i = 0; i < createHeroes().length; i++) {
-            System.out.println(createHeroes()[i].getHeight() + " " + createHeroes()[i].getDamage() + " " + createHeroes()[i].getSuperpower());
-
+            System.out.println(createHeroes()[i].getHeight() + " " + createHeroes()[i].getDamage()
+                    + " " + createHeroes()[i].getSuperpower());
         }
     }
 
